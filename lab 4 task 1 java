@@ -1,0 +1,60 @@
+package anumname;
+
+
+public class Anumname {
+
+   
+    public static void main(String[] args) {
+       //A
+        for (int r = 1; r <= 5; r++) {
+    for (int c = 1; c <= 5; c++) {
+        if (c == 1 || c == 5 || (r == 3 && c > 1 && c < 5)) {
+            System.out.print("*");
+        } else {
+            System.out.print(" ");
+        }
+    }
+    System.out.print("  "); // Space between letters
+}
+
+
+//N
+        for (int r = 1; r <= 5; r++) {
+    for (int c = 1; c <= 5; c++) {
+        if (c == 1 || c == 5 || c == r) {
+            System.out.print("*");
+        } else {
+            System.out.print(" ");
+        }
+    }
+    System.out.print("  "); // Space between letters
+}
+
+
+//U
+       for (int r = 1; r <= 5; r++) {
+    for (int c = 1; c <= 5; c++) {
+        if (c == 1 || c == 5 || (r == 5 && c > 1 && c < 5)) {
+            System.out.print("*");
+        } else {
+            System.out.print(" ");
+        }
+    }
+    System.out.print("  "); // Space between letters
+}
+
+//M
+
+       for (int r = 1; r <= 5; r++) {
+    for (int c = 1; c <= 5; c++) {
+        if (c == 1 || c == 5 || (r == 1 && c <= 5) || (r == c && c >= 2 && c <= 4) || (r == 2 && c == 4) || (r == 3 && c == 3)) {
+            System.out.print("*");
+        } else {
+            System.out.print(" ");
+        }
+    }
+    System.out.println();
+}
+    }
+    
+}
