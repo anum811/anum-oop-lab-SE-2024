@@ -1,0 +1,25 @@
+package laptops;
+import java.util.Scanner;
+
+
+public class Laptops {
+
+    String brand;
+Laptops(String brand){
+    this.brand=brand;
+}
+void displayBrand(String brand){
+System.out.println("Brand name is:"+brand);
+}
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        System.out.println("Enter laptop's brand name:");
+        String brand= s.nextLine();
+       Laptops la =new Laptops(brand);
+       
+  
+        la.displayBrand(brand);
+    }
+    
+}
