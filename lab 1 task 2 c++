@@ -1,0 +1,20 @@
+#include<iostream>
+#include<string>
+using namespace std;
+class car{
+	public:
+		string companyname;
+		double Topspeed;
+		string modelname;
+		void displayinfo(){
+			cout<<"Name:  "<<companyname<<endl<<"Topspeed: "<<Topspeed<<endl<<"ModelName: "<<modelname;
+}
+};
+int main(){
+	car c;
+	c.companyname= "Honda";
+	c.Topspeed= 200;
+	c.modelname=" Civic";
+	c.displayinfo();
+	return 0;
+}
