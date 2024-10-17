@@ -1,0 +1,42 @@
+package condition;
+
+/**
+ *
+ * @author Riphah
+ */
+public class Condition {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int i;
+        i=5;
+        int j;
+        j=2;
+        if(i%2==0){
+            System.out.println(i+" is even");
+        }
+        
+        else{
+            System.out.println(i+" is odd");
+            
+        }
+        // TODO code application logic here
+    
+    if(j%2==0){
+            System.out.println(j+" is even");
+      
+            
+        }
+        
+        else{
+            System.out.println(j+" is odd");
+            
+        }
+        // TODO code application logic here
+    
+    
+}
+}
+
