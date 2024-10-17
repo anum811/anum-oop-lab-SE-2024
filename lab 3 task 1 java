@@ -1,0 +1,21 @@
+package string2;
+
+/**
+ *
+ * @author Riphah
+ */
+public class String2 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        String[] name={"ni","ti","si"};
+        for(int i=0;i<name.length;i++)
+        {
+            System.out.println(name[i]);
+        // TODO code application logic here
+    }
+    }
+}
+
