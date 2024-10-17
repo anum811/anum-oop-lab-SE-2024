@@ -36,3 +36,4 @@ public void setReleaseYear(int releaseYear) {
         System.out.println("Director: " + myMovie.getDirector());
         System.out.println("Release Year: " + myMovie.getReleaseYear());
     }
+}
