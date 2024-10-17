@@ -1,0 +1,20 @@
+package maxnum;
+
+
+public class Maxnum {
+
+    public static void main(String[] args) {
+        Maxnum mn=new Maxnum();
+int i=23;
+int k=17;
+int j=45;
+if(i>k && i>j){
+System.out.println("I is greatest");
+}
+else if(k>i && k>j){
+    System.out.println("K is greatest");
+}
+else{
+    System.out.println("J is greatest");
+}}
+}
