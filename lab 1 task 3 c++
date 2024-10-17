@@ -1,0 +1,41 @@
+#include<iostream>
+using namespace std;
+class laptop {
+public:
+ string brand;
+ string serial;
+ string model;
+ string color;
+ float price;
+ string processorspeed;
+ string Ram;
+ string screensize;
+ void displayInfo() {
+ cout << "Brand: " <<brand<<"\n"<<"Model: "<<model<<"\n"<< "Processor Speed: " << processorspeed <<"\n"
+ << "Color: "<<color<<"\n"<<"Price: "<<price<<"\n"<<"RAM: "<<Ram<<"\n"<<"Screen Size"<<screensize<<"\n"<<"Serial: "<<serial<<endl;
+ }
+};
+int main()
+{
+laptop lp[2];
+lp[0].brand = "DELL	";
+lp[0].processorspeed = "1300Hz";
+lp[0].color = "Blue";
+lp[0].screensize= "12 inch";
+lp[0].Ram = "16 GB";
+lp[0].price = 100000;
+lp[0].serial ="4TD4G85";
+lp[0].model = "7-2020sl";
+lp[1].brand = "Apple";
+lp[1].processorspeed = "3000Hz";
+lp[1].color = "Pearl White";
+lp[1].screensize= "15 inch";
+lp[1].Ram = "16GB";
+lp[1].price = 120000;
+lp[1].serial = "mac2022";
+lp[1].model = "13-020224mac";
+for (int i = 0; i < 2; i++) {
+ lp[i].displayInfo();
+}
+return 0;
+}
